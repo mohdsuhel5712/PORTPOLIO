@@ -1,0 +1,136 @@
+*{
+      margin: 0;
+      padding:0 ;
+      box-sizing: border-box;
+}
+
+.body{
+      background-image: url('img/first.avif');
+      width: 100%;
+      height: 100vh;
+      
+}
+
+.navbar{
+      width: 100%;
+      justify-content: space-between;
+      padding:10px;
+      height: 60px;
+      color: white !important;
+      background-color: rgb(28, 26, 26);
+}
+.navbar .logo img{
+      align-items: left;
+      text-align: left;
+      
+      width: 50px;
+}
+.navbar .nav_list{
+      align-items: right;
+      text-align: right;
+}
+.navbar .nav_list ul{
+      list-style-type: none;
+}
+.navbar .nav_list ul li {
+      display: inline-block;
+}
+.navbar .nav_list ul li a{
+      text-decoration: none;
+      color: rgb(255, 255, 255);
+      margin: 20px;
+      font-size: 13px;
+      font-weight: 600  ;
+}
+.navbar .nav_list ul li a:hover{
+      border-bottom: 2px solid red ;
+      transition: all 0.1s;
+      padding-bottom: 5px;
+      color: aqua;
+}
+
+.nav_list ul i{
+      font-size: 20px;
+}
+
+
+/* content class css  */
+ .content{
+      padding: 100px 50px ;
+ }
+ .content h1{
+      font-size: 40px;
+      font-weight: 700;
+ }
+ .content span{
+      color: rgb(236, 28, 0);
+ }
+ .content button{
+      padding: 7px 30px ;
+      font-size: 15px;
+      background-color: rgba(255, 0, 0, 0.893);
+      color: white;
+      border:  none;
+      border-radius: 5px;
+ }
+.img{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+.img img{
+      margin: 50px auto;
+      width: 300px;
+      height: 300px;
+      border:  2px solid white;
+      border-radius:  50%;
+ }
+
+ /* footer */
+ .footer{
+      width: 100%;
+      height: 50px;
+      padding: 10px 40px ;
+      background-color: rgb(14, 13, 13);
+      margin-top: 40px;
+ }
+
+ 
+@media screen and (max-width:768px){
+      .body{
+            min-height:900px ;
+      }
+      .navbar .nav_list{
+            background-color: rgba(250, 207, 207, 0.482);
+      }
+      .navbar .nav_list ul li {
+            display: block;
+            margin: 10px auto;
+            text-align: center;
+      }
+      .navbar  .nav_list {
+            display: none;
+      }
+       .navbar .nav_list ul i{
+            display: none;
+       }
+      .toogle .show{
+            display: block !important;
+      }
+      .content h1{
+            font-size: 20px;
+      }
+      .content button{
+            padding: 5px 20px ;
+            font-size: 13px;
+      }
+      .img img{
+      margin: 0px auto;
+      width: 250px;
+      height: 250px;
+      border:  2px solid white;
+      border-radius:  50%;
+ }
+}

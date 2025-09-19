@@ -1,0 +1,73 @@
+.features{
+      margin: 20px 0px;
+}
+.features h1 {
+      text-align: center;
+      font-size: 45px;
+      font-weight: 800;
+      color: rgb(5, 5, 127);
+}
+.features span{
+      -webkit-text-stroke-width: 2px;
+      -webkit-text-fill-color: transparent;
+      -webkit-text-stroke-color: rgb(84, 3, 124);
+      -webkit-text-fill-color: transparent;
+}
+.features span:hover{
+        -webkit-text-stroke-width: 2px;
+      -webkit-text-fill-color: rgb(84, 3, 124);
+      -webkit-text-stroke-color: rgb(84, 3, 124);
+      -webkit-text-fill-color: rgb(0, 255, 170);
+      transition:  all 0.1s;
+}
+.features p{ text-align: center !important;
+      font-size: 18px;
+      font-weight: 600;
+      color: rgba(94, 94, 94, 0.824);
+}
+.features .box{
+      width: 400px;
+      height: 200px;
+      background: #0250b7;
+      color: white !important;
+      border-radius: 10px;
+      border-right: 2px solid rgb(3, 3, 141);
+      padding-left: 5px;
+      border-spacing: 10px;
+}
+.features .box p{
+      color: white;
+}
+.features .box h3{
+      color: aliceblue;
+}
+.features .box2{
+      padding: 10px 10px ;
+      margin: 20px 0px;
+}
+.features .btn{
+      box-shadow: 1px 1px 2px 1px rgb(120, 116, 116);
+      margin: 0px 10px ;
+}
+.features .btn:hover{
+     
+       box-shadow: 1px 1px 2px 2px rgb(120, 116, 116);
+}
+
+@media screen and (max-width:768px) {
+      .features h1{
+            font-size: 30;
+            font-weight: 700;
+      }
+      .features p{
+            font-size: 15px;
+      }
+       .features .box{
+            width: 250px;
+            padding-left: 0;
+       }
+       .features .btn{
+           
+            font-size: 10px;
+       }
+}

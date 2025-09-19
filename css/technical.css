@@ -1,0 +1,28 @@
+.technical{
+      width: 100%;
+      height: 100vh;
+}
+.technical h1{
+      text-align:  center;
+      color: rgb(2, 2, 168);
+}
+.technical .col-sm-3{
+      width: 250px;
+      height: 210px;
+      padding: 10px 20px ;
+      box-shadow: 2px 2px 5px 3px  rgb(92, 90, 90);
+      margin: 10px 16px ;
+}
+.technical .col-sm-3:hover{
+      box-shadow: 2px 2px 4px 4px rgb(22, 7, 7);
+}
+.technical h4 {
+      font-size: 20px;
+      color: rgb(0, 0, 156);
+}
+
+@media screen and (max-width:768px) {
+      .technical .col-sm-3{
+            width: 350px;
+      }
+}

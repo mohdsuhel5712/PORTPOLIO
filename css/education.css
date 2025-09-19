@@ -1,0 +1,30 @@
+.education{
+      margin: 20px 0px ;
+}
+.education h1{
+      font-size: 45px;
+      font-weight: 800;
+      color: rgb(8, 8, 162);
+      margin: 20px 0px ;
+}
+.education span{
+      -webkit-text-stroke-width: 2px;
+      -webkit-text-fill-color: transparent;
+      -webkit-text-stroke-color: rgb(10, 0, 116);
+}
+
+.education span:hover{
+        -webkit-text-stroke-width: 2px;
+      -webkit-text-fill-color: rgb(2, 149, 132);
+      -webkit-text-stroke-color: rgb(10, 0, 116);
+}
+.education .row{
+      margin: 10px 0px ;
+      padding-inline-start: 10px;
+      box-shadow: 1px 1px 5px 3px rgb(94, 73, 73);
+      border-radius: 10px;
+}
+.education .row:hover{
+        box-shadow: 1px 1px 5px 3px rgb(62, 48, 48);
+        border-radius: 12px;
+}

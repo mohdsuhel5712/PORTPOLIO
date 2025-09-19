@@ -1,0 +1,31 @@
+.professional h1{
+text-align: center;
+color: rgb(1, 1, 135);
+font-size: 45px;
+font-weight: 800;
+}
+
+.professional .col-sm-6{
+      padding: 20px 100px ;
+     
+      
+}
+.professional p{
+      font-size: 18px;
+}
+.professional h3{
+      color: rgb(0, 0, 157);
+      font-size: 20px;
+      font-weight: 700;
+}
+
+@media screen and (max-width:768px) {
+      .professional{
+            margin-top: 500px;
+      }
+      .professional h1{
+            font-size: 30px;
+            font-weight: 700;
+      }
+      
+}
